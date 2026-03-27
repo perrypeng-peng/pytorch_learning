@@ -9,7 +9,7 @@
 - 第1-2天：PyTorch简介与环境搭建
 核心理论：PyTorch的优势、适用场景（对比TensorFlow）；Anaconda、PyTorch的安装流程（CPU/GPU版本选择，GPU版本需了解CUDA、cuDNN的作用）；PyCharm或VS Code配置PyTorch开发环境。
 补充资源：
-    1. 官方英文文档（最权威）：https://pytorch.org/docs/stable/index.html ；
+    1. 官方英文文档（最权威）：https://pytorch.org/docs/stable/index.html；
     2. 官方中文入门教程（适合零基础）：https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html （中文翻译版可参考ApacheCN社区）[4]；
     3. 环境配置避坑：使用Docker镜像（如pytorch-cuda:v2.7）可快速搭建环境，启动时需加--gpus all参数启用GPU，避免CUDA识别失败。
 

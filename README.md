@@ -8,7 +8,10 @@
 
 - 第1-2天：PyTorch简介与环境搭建
 核心理论：PyTorch的优势、适用场景（对比TensorFlow）；Anaconda、PyTorch的安装流程（CPU/GPU版本选择，GPU版本需了解CUDA、cuDNN的作用）；PyCharm或VS Code配置PyTorch开发环境。
-补充资源：1. 官方英文文档（最权威）：https://pytorch.org/docs/stable/index.html ；2. 官方中文入门教程（适合零基础）：https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html （中文翻译版可参考ApacheCN社区）[4]；3. 环境配置避坑：使用Docker镜像（如pytorch-cuda:v2.7）可快速搭建环境，启动时需加--gpus all参数启用GPU，避免CUDA识别失败。
+补充资源：
+    1. 官方英文文档（最权威）：https://pytorch.org/docs/stable/index.html ；
+    2. 官方中文入门教程（适合零基础）：https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html （中文翻译版可参考ApacheCN社区）[4]；
+    3. 环境配置避坑：使用Docker镜像（如pytorch-cuda:v2.7）可快速搭建环境，启动时需加--gpus all参数启用GPU，避免CUDA识别失败。
 
 - 第3-5天：Tensor（张量）核心操作
 核心理论：Tensor的定义（与Numpy数组的区别与联系）；Tensor的基本属性（shape、dtype、device）；Tensor的创建方法（直接创建、从Numpy转换、随机创建等）；Tensor的常用操作（索引、切片、拼接、拆分、转置）；Tensor的数学运算（加减乘除、矩阵运算、激活函数的张量实现）。
